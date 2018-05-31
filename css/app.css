@@ -107,3 +107,41 @@ h1 {
     float: right;
     cursor: pointer;
 }
+
+
+.overlay {
+  position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+}
+
+.popup{
+
+  margin: 70px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    width: 85%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.close {
+    color: #aaa;
+    float: right ;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.up {
+
+  visibility: visible !important;
+	opacity: 100 !important;
+}
