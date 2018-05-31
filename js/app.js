@@ -99,10 +99,10 @@ function shuffle(array) {
      moves++;
      counter.innerHTML = moves;
          }
-    
 
 
 
+//Overlay once completed the game
 function congrats (){
   let matchedCards = $(".match");
   let listOfMatches = jQuery.makeArray(matchedCards);
@@ -113,7 +113,7 @@ if (listOfMatches.length === 16){
 }
 
 };
-
+// to close the overlay
 function closeOverlay(){
   $(".close").on("click", function(){
 
