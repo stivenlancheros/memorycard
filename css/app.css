@@ -108,6 +108,11 @@ h1 {
     cursor: pointer;
 }
 
+.score-panel .timer{
+  text-align: right;
+    padding-left: 1em;
+  display: inline-block;
+}
 
 .overlay {
   position: fixed;
@@ -144,4 +149,10 @@ opacity: 0;
 
   visibility: visible !important;
 	opacity: 100 !important;
+}
+.party{
+ width: 20%;
+ height: 20%;
+ float: right;
+
 }

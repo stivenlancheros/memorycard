@@ -21,12 +21,13 @@
         		<li><i class="fa fa-star"></i></li>
         		<li><i class="fa fa-star"></i></li>
         	</ul>
-
+            <div class="info">
         	<span class="moves">0</span> Moves
-
+            <div class="timer"> </div>
             <div class="restart">
         		<i class="fa fa-repeat"></i>
         	</div>
+        </div>
         </section>
 
         <ul class="deck">
@@ -84,8 +85,15 @@
     <div class="overlay">
       <div class ="popup">
       <h1>Congratulations</h1>
+      <img src="http://img.webmensajes.com/celebraciones/563.gif" class="party"></img>
         <p>You are the winner </p>
+        <p> You made it in
+        <span id= "total"> </span>
+      </p>
         <button class="close"> &#x274C;</button>
+        <button class="oneMore" onclick="tryMe()">
+                    Play again 😄
+                </button>
       </div>
     </div>
 

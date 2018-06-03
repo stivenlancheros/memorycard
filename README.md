@@ -2,19 +2,28 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+* [Parts]
+* [Development]
 
-## Instructions
+## Parts
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This project was made as an assingment for the Front-End nanodegree for Udacity. This website is a memorygame in which the user will be able to interact and and maked matches out of 16 cards. For this project you can find:
+Index.html: Page html structure
+app.js: Javascript handlind the interaction with the page and the game
+app.css: Styles applied to all elements.
 
-To get started, open `js/app.js` and start building out the app's functionality
+## Development
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+After the HTML was done (provided), I'd like to share some of the steps I took on JS provide the game its functions:
 
-## Contributing
+1. Function "restart()": Restart the game and shuffle the cards, also to set moves to 0 and restart timer.
+2. Function "bindCards()": TO open and show the cards responding to the click of the user, also to add "match" class to the ones matching, creating an array for the matching cards so that i could go back to the hidden state in case they don't match
+3. Shuffle function: Change the position of the cards to create a new game.
+4. Function "moveCounter()": Starts counting the moves to provide a score according to the number of movements, also starts the timer at first click.
+5."congrats()": Overlay once the user has finish the game, includes the time and the option to play once more.
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Feel free to suggest changes on it.
+
+Best regards.
